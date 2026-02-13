@@ -40,7 +40,7 @@ The dataset contains **16,859 records** with **26 features**, covering numerical
 #### Numerical Features
 - **BMI**
 - **PhysicalHealth**
-- **MentalHealth**
+- ~~MentalHealth~~ *(removed)*
 - ~~SleepTime~~ *(removed)*
 
 #### Categorical / Binary Features (already encoded)
@@ -104,8 +104,8 @@ Since all categorical variables were already encoded, no additional encoding was
 
 The trained Logistic Regression model achieved:
 
-- **Training Accuracy:** 90.38%  
-- **Testing Accuracy:** 90.24%  
+- **Training Accuracy:** 90.24%  
+- **Testing Accuracy:** 90.50%  
 
 ---
 
